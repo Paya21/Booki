@@ -1,5 +1,69 @@
-p
+header img
+{
+    width: 61.09px;
+    height: 19px;
+    padding-top: 44px;
+    padding-left: 55px;
+}
+
+header h1
 {
     font-family: 'Raleway', sans-serif;
-    color: blue;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 63px;
+    padding-left: 55px;
+    
+    
 }
+
+header p
+{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 6px;
+    margin-left: 55px;
+    
+}
+
+header 
+{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text-logo-header
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links-header 
+{
+    display: flex;
+}
+
+.links-header a
+{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-right: 77px; 
+    padding-left: 48px;    
+    padding-top: 48px;
+}
+
+.links-header a:hover
+{
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+}
+
