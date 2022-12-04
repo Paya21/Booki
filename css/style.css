@@ -126,10 +126,16 @@ i
     align-items: center;
 }
 
+.filter h3
+{
+    width: 54px;
+    height: 21px;
+}
+
 .filter button
 {
-    width: 226px;
-    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
     border: 2px solid #d9d9d9;
     border-radius: 25px;
     display: flex;
@@ -145,5 +151,29 @@ i
 .filter i
 {
     color: #0065fc;
-    background-color: white;
+    background: none;
+    border-style: none;
+}
+
+.eco
+{
+    width: 190px;
+    height: 48px;
+}
+
+.family
+{
+    width: 145px;
+    height: 48px;
+}
+
+.romantic
+{
+    width: 180px;
+    height: 48px;
+}
+
+.pet
+{
+    width: 240px;
 }
