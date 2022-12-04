@@ -67,3 +67,83 @@ header
     border-top: 2px solid #0065fc;
 }
 
+form
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 55px;
+}
+
+form button
+{
+    background-color: #0065fc;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 1px solid #0065fc;
+    border-radius: 0px 15px 15px 0px;
+    width: 132px;
+    height: 49px;
+    margin-left: -5px;
+
+}
+
+form input
+{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: none;
+    border-right: none;
+    width: 332px;
+    height: 45px;
+    padding-left: 16px;
+}
+
+i
+{
+    
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+
+.filter
+{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    margin-left: 62px;
+    margin-top: 45px;
+    margin-right: 464px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter button
+{
+    width: 226px;
+    height: 50px;
+    border: 2px solid #d9d9d9;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.filter button:active
+{
+    background-color: #deebff;
+}
+
+.filter i
+{
+    color: #0065fc;
+    background-color: white;
+}
