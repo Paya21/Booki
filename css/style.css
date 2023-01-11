@@ -722,10 +722,10 @@ footer
         /* margin-top: -111px; */
         display: flex;
         justify-content: flex-start;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-around;
         margin-top: 48px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         /* padding-bottom: 20px; */
     }
 
@@ -738,6 +738,10 @@ footer
         padding-left: 48px;     */
         padding: 0;
         padding-bottom: 48px;
+        max-width: 188px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .links-header a:hover
@@ -754,6 +758,8 @@ footer
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        max-width: 377px;
+        width: 100%;
     }
 
     .descr-head h1 
@@ -773,6 +779,12 @@ footer
         display: none;
     }
 
+    .formulaire
+    {
+        max-width: 377px;
+        width: 100%;
+    }
+
     .loupe
     {
         visibility: visible;
@@ -783,8 +795,8 @@ footer
 
     .filter
     {
-        max-width: 413px;
-        width: 100%;
+        max-width: 377px;
+        width: 90%;
         margin-left: 20px;
     }
 
@@ -818,6 +830,8 @@ footer
         margin-left: 20px;
         display: flex;
         flex-wrap: wrap;
+        max-width: 377px;
+        width: 100%;
     }
 
     .info p 
