@@ -1,3 +1,8 @@
+html, body
+{
+    overflow-x: hidden;
+}
+
 body
 {
     max-width: 1400px;
@@ -298,7 +303,7 @@ form i
 .hebergement h2
 {
     font-size: 22px;
-    margin-left: 55px;
+    margin-left: 33px;
     margin-bottom: 5px;
     margin-top: 10px;
 }
@@ -594,6 +599,11 @@ footer
         margin: 0 auto;
         /* padding-left: 20px; */
     }
+
+    .header-pop
+    {
+        margin-left: 44px;
+    }
     .populaire
     {
         max-width: 883px;
@@ -603,6 +613,7 @@ footer
         /* margin-left: 50px; */
         /* margin-right: 75px; */
         /* padding-right: 41px; */
+        padding: 0;
     }
 
     .hebergement
@@ -717,7 +728,7 @@ footer
 
     .links-header
     {
-        max-width: 377px;
+        max-width: 413px;
         width: 100%;
         /* margin-top: -111px; */
         display: flex;
@@ -738,7 +749,7 @@ footer
         padding-left: 48px;     */
         padding: 0;
         padding-bottom: 48px;
-        max-width: 188px;
+        max-width: 208px;
         width: 100%;
         display: flex;
         justify-content: center;
