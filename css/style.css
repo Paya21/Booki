@@ -432,11 +432,12 @@ form i
     justify-content: space-between;
     margin-left: 15px;
     margin-right: 22px;
+    width: 166%;
 }
 
 .pop-card img
 {
-    width: 137px;
+    width: 70%;
     height: 133px;
     border: 5px solid white;
     border-radius: 20px 0px 0px 20px;
@@ -719,7 +720,7 @@ footer
     
     header 
     {
-        max-width: 451px;
+        /* max-width: 451px; */
         width: 100%;
     }
 
@@ -734,13 +735,13 @@ footer
 
     .links-header
     {
-        max-width: 413px;
+        /* max-width: 413px; */
         width: 100%;
         /* margin-top: -111px; */
         display: flex;
         justify-content: flex-start;
         flex-wrap: nowrap;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 48px;
         /* margin-left: 20px; */
         /* padding-bottom: 20px; */
@@ -755,7 +756,7 @@ footer
         padding-left: 48px;     */
         padding: 0;
         padding-bottom: 48px;
-        max-width: 208px;
+        /* max-width: 208px; */
         width: 100%;
         display: flex;
         justify-content: center;
